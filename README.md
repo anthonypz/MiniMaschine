@@ -13,7 +13,7 @@ A drum machine emulator that lets you play sound samples using a keyboard or mou
 Clone the project
 
 ```bash
-  git clone https://github.com/anthonypz/tenzies.git
+  git clone https://github.com/anthonypz/drum-machine.git
 ```
 
 Go to the project directory
