@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.drum-pad:nth-child(2) {
+  @apply bg-amber-400;
+}
+
+.drum-pad:nth-child(3) {
+  @apply bg-blue-400;
+}
+
+.drum-pad:nth-child(4) {
+  @apply bg-red-400;
+}
+
+.drum-pad:nth-child(5) {
+  @apply bg-teal-400;
+}
+
+.drum-pad:nth-child(6) {
+  @apply bg-orange-400;
+}
+
+.drum-pad:nth-child(7) {
+  @apply bg-fuchsia-400;
+}
+
+.drum-pad:nth-child(8) {
+  @apply bg-cyan-400;
+}
+
+.drum-pad:nth-child(9) {
+  @apply bg-indigo-400;
+}
+
+.drum-pad:nth-child(10) {
+  @apply bg-green-400;
+}
