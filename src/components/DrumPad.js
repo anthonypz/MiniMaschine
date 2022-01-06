@@ -28,7 +28,7 @@ export default function DrumPad({ keyPress, keyCode, id, audio, setDisplay }) {
   return (
     <button
       ref={label}
-      className="drum-pad p-8 border-2 border-gray-100"
+      className="drum-pad border-2 rounded border-gray-100 bg-gray-200 text-gray-700 font-inter text-lg shadow"
       id={id}
       onClick={handleClick}
     >
