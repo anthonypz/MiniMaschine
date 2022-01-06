@@ -6,7 +6,7 @@ A drum machine emulator that lets you play sound samples using a keyboard or mou
 
 ## Screenshots
 
-<img src="" width="500px">
+<img src="https://github.com/anthonypz/drum-machine/blob/main/docs/screenshots/screenshot.png" width="500px">
 
 ## Run Locally
 
@@ -19,7 +19,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd drum-machine
 ```
 
 Install dependencies
