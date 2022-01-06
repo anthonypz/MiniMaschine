@@ -16,6 +16,7 @@ export default function DrumPad({ keyPress, keyCode, id, audio, setDisplay }) {
       sample.current.currentTime = 0;
       sample.current.play();
       setDisplay(label.current.id);
+      selectPad();
     }
   };
 
@@ -23,16 +24,32 @@ export default function DrumPad({ keyPress, keyCode, id, audio, setDisplay }) {
     sample.current.currentTime = 0;
     sample.current.play();
     setDisplay(label.current.id);
+    selectPad();
+  };
+
+  const selectPad = () => {
+    label.current.classList.add(
+      "brightness-125",
+      "translate-x-0.5",
+      "translate-y-0.5"
+    );
+    setTimeout(() => {
+      label.current.classList.remove(
+        "brightness-125",
+        "translate-x-0.5",
+        "translate-y-0.5"
+      );
+    }, 125);
   };
 
   return (
     <button
       ref={label}
-      className="drum-pad border-2 rounded border-gray-100 bg-gray-200 text-gray-700 font-inter text-lg shadow"
+      className="drum-pad border-2 rounded border-gray-100 bg-gray-200 text-gray-50 font-inter text-lg shadow"
       id={id}
       onClick={handleClick}
     >
-      <p>{keyPress}</p>
+      {keyPress}
       <audio ref={sample} className="clip" id={keyPress} src={audio}></audio>
     </button>
   );
