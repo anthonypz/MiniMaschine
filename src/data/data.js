@@ -8,7 +8,7 @@ import vocal1 from "./samples/vocal1.wav";
 import vocal2 from "./samples/vocal2.wav";
 import melody2 from "./samples/Melody2.wav";
 
-export default [
+const data = [
   {
     id: "808 Kick",
     keyPress: "Q",
@@ -64,3 +64,5 @@ export default [
     audio: melody2,
   },
 ];
+
+export default data;
