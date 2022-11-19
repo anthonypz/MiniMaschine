@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/drum-machine/static/css/main.c2f45048.css",
-    "main.js": "/drum-machine/static/js/main.d59fc5c5.js",
-    "static/media/Melody2.wav": "/drum-machine/static/media/Melody2.a3913a0948466137a959.wav",
-    "static/media/vocal1.wav": "/drum-machine/static/media/vocal1.a87e0cb797b616a48186.wav",
-    "static/media/vocal2.wav": "/drum-machine/static/media/vocal2.30b693b07fffa2cf520e.wav",
-    "static/media/Kick808.wav": "/drum-machine/static/media/Kick808.fca172c8b4168a800e71.wav",
-    "static/media/Snare.wav": "/drum-machine/static/media/Snare.54a7bc6940c691970d9f.wav",
-    "static/media/Hihat2.wav": "/drum-machine/static/media/Hihat2.490d7ca46f71f1fe1812.wav",
-    "static/media/Hihat.wav": "/drum-machine/static/media/Hihat.f127786c5d81e567cde1.wav",
-    "static/media/Clap1.wav": "/drum-machine/static/media/Clap1.d7c431056c8804b074ef.wav",
-    "static/media/Kick.wav": "/drum-machine/static/media/Kick.0032bf61d00511c78c1d.wav",
-    "index.html": "/drum-machine/index.html",
-    "main.c2f45048.css.map": "/drum-machine/static/css/main.c2f45048.css.map",
-    "main.d59fc5c5.js.map": "/drum-machine/static/js/main.d59fc5c5.js.map"
+    "main.css": "/MiniMaschine/static/css/main.c2f45048.css",
+    "main.js": "/MiniMaschine/static/js/main.4b433080.js",
+    "static/media/Melody2.wav": "/MiniMaschine/static/media/Melody2.a3913a0948466137a959.wav",
+    "static/media/vocal1.wav": "/MiniMaschine/static/media/vocal1.a87e0cb797b616a48186.wav",
+    "static/media/vocal2.wav": "/MiniMaschine/static/media/vocal2.30b693b07fffa2cf520e.wav",
+    "static/media/Kick808.wav": "/MiniMaschine/static/media/Kick808.fca172c8b4168a800e71.wav",
+    "static/media/Snare.wav": "/MiniMaschine/static/media/Snare.54a7bc6940c691970d9f.wav",
+    "static/media/Hihat2.wav": "/MiniMaschine/static/media/Hihat2.490d7ca46f71f1fe1812.wav",
+    "static/media/Hihat.wav": "/MiniMaschine/static/media/Hihat.f127786c5d81e567cde1.wav",
+    "static/media/Clap1.wav": "/MiniMaschine/static/media/Clap1.d7c431056c8804b074ef.wav",
+    "static/media/Kick.wav": "/MiniMaschine/static/media/Kick.0032bf61d00511c78c1d.wav",
+    "index.html": "/MiniMaschine/index.html",
+    "main.c2f45048.css.map": "/MiniMaschine/static/css/main.c2f45048.css.map",
+    "main.4b433080.js.map": "/MiniMaschine/static/js/main.4b433080.js.map"
   },
   "entrypoints": [
     "static/css/main.c2f45048.css",
-    "static/js/main.d59fc5c5.js"
+    "static/js/main.4b433080.js"
   ]
 }
